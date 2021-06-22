@@ -1,0 +1,14 @@
+a=str(input("輸入查詢的學號為:"))
+b={"123":"Tom","456":"Cat","789":"Nana","321":"Lim","654":"Won"}
+c=list(b.keys())
+value=list(b.values())
+if(a==c[0]):
+    print("學生資料為:",c[0],value[0],"DTGD")
+elif(a==c[1]):
+    print("學生資料為:",c[1],value[1],"CSIE")
+elif(a==c[2]):
+    print("學生資料為:",c[2],value[2],"ASIE")
+elif(a==c[3]):
+    print("學生資料為:",c[3],value[3],"DBA")
+elif(a==c[4]):
+    print("學生資料為:",c[4],value[4],"FDD")
